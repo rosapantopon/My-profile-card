@@ -1,4 +1,38 @@
-#profil-pic {
-	width: 20%;
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: whitesmoke;
+	background: url('assets/corridor.jpg') no-repeat center center fixed;
+  background-size: cover;
+	margin: 8%;
+}
+
+.about {
+	float: right;
+	text-align: right;
+}
+
+#profil-pic {	
+	float: left;
+	width: 26%;
 	height: auto;
+	border-radius: 8%;
+	filter: grayscale(100%);
+	transition: all 0.5s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+	filter: grayscale(0%);
+}
+
+#communication {
+	text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
 }
