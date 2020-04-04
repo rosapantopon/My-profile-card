@@ -1,20 +1,24 @@
 body {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: 22px;
+	font-size: 21px;
 	color: whitesmoke;
 	background: url('assets/corridor.jpg') no-repeat center center fixed;
   background-size: cover;
-	margin: 8%;
+	margin: 10%;
 }
 
+#name {
+	text-align: right
+}
 .about {
 	float: right;
 	text-align: right;
+	width: 60%
 }
 
 #profil-pic {	
 	float: left;
-	width: 26%;
+	width: 30%;
 	height: auto;
 	border-radius: 8%;
 	filter: grayscale(100%);
@@ -22,17 +26,23 @@ body {
 }
 
 img:hover {
-  transform: scale(1.1);
+  transform: scale(1.5);
 	filter: grayscale(0%);
+}
+.clear {
+    clear: both;
 }
 
 #communication {
-	text-align: center;
+	text-align: left;
 }
+
 ul {
   list-style-type: none;
 }
 
 li {
   display: inline;
+	padding-right: 28px
 }
+
