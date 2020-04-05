@@ -8,12 +8,12 @@ body {
 }
 
 #name {
-	text-align: right
+	text-align: right;
 }
 .about {
 	float: right;
 	text-align: right;
-	width: 60%
+	width: 60%;
 }
 
 #profil-pic {	
@@ -43,6 +43,6 @@ ul {
 
 li {
   display: inline;
-	padding-right: 28px
+	padding-right: 28px;
 }
 
